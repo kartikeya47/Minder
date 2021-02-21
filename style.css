@@ -1,0 +1,136 @@
+html,body{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+}
+.f1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.65rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.btn1{
+    margin: 4px;
+}
+.btn2{
+    margin: 4px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.1rem;
+}
+.img{
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 10%;
+}
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+p{
+    color: grey;
+}
+.fa-4x{
+    padding-bottom: 10%;
+}
+#tests{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;   
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.dog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+}
+.image{
+    margin: 0.1% 5% 5% 5%;
+}
+
+.card-deck{
+    padding: 5% 10% 10% 10%;
+}
+.try{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4%;
+}
+.btt1{
+    margin-top: 6%;
+}
+.foot{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10%;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+}
+.pfoot{
+    color: black;
+}
+.bt1{
+    margin: 2%;
+}
+.bt2{
+    margin: 2%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+@media (min-width: 0px) and (max-width: 990px)
+{
+    .btt1{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .imdog{
+        margin-top: 5%;
+    }
+
+}
+@media (min-width: 0px) and (max-width: 957px)
+{
+    .dog{
+        width: 30%;
+    }
+
+}
